@@ -1,0 +1,25 @@
+<header class='navbar navbar-fixed-top'>
+	<div class="navbar-inner">
+		<div class="container">
+			<a class="brand" href= <%= root_path %> >U.P. Propane</a>
+			<ul class="nav">
+				<li class="active"><a href='#'>Home</a></li>
+				<li><a href="#">Link #2</a></li>
+				<li><a href="#">Link #3</a></li>
+			</ul>
+
+			<ul class='nav pull-right'>
+				<li id='fat-menu' class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                		Account <b class="caret"></b>
+              		</a>
+
+              		<ul class="dropdown-menu">
+              			<li><%= link_to "Settings", '#' %></li>
+              			<li><%= link_to "Sign Out", '#' %></li>
+              		</ul>
+				</li>
+			</ul>
+		</div>	<!-- container -->
+	</div>	<!-- navbar-inner -->
+</header>
